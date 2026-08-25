@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+npm-debug.log*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/.env
