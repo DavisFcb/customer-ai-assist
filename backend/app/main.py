@@ -80,7 +80,7 @@ async def whatsapp_webhook(
     if text:
         payload = {
             "channel": "whatsapp",
-            "session_id": phone,
+            "session_id": "test-session-1978",
             "rsa_id": rsa_id,
             "text": text
         }
